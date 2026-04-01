@@ -3,6 +3,6 @@ module ro.upt.student.sef.studentmanager {
     requires javafx.fxml;
 
 
-    opens ro.upt.student.sef.studentmanager to javafx.fxml;
-    exports ro.upt.student.sef.studentmanager;
+    opens loose.oose.fis.lab.student.manager to javafx.fxml;
+    exports loose.oose.fis.lab.student.manager;
 }
